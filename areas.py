@@ -1,5 +1,4 @@
 import math
-import os
 
 def triangle(base, height):
     return base*height/2
@@ -12,4 +11,3 @@ def circle(radius):
 
 print(triangle(4,10))
 
-print(os.getcwd)
