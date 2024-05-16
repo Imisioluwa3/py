@@ -13,4 +13,5 @@ def csv_writer(csv_file):
 
         for user in users:
            print("The username and department of {} are {} and {} respectively.".format(user['name'], user['username'], user['department'])) 
+           
 csv_writer("dept.csv")
